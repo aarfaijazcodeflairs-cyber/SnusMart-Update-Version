@@ -4227,7 +4227,7 @@ product-form.product-form {
 .faq-wrapper.active{
     border: none;
 }
-.fqa-heading h1 {
+.fqa-heading h2 {
     margin: 34px;
         margin-left: 10px;
 }
@@ -4275,7 +4275,4 @@ button.faq-quetion.active i {
     width: 90%; 
     margin: 38px;
 }
-
-
-
 }
