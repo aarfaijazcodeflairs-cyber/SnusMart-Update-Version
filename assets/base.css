@@ -4147,18 +4147,17 @@ quantity-input.quantity {
 @media screen and (max-width: 425px) {
 
   .Header-text-double-wrapper {
-    display: flex;
-    justify-content: flex-end;
-    gap: 20px;
-    justify-content: cem;
-    gap: -1px;
-    width: 96%;
-    background: #f7f7f7;
-    margin: 21px;
-    padding: 20px 0;
-    overflow: hidden;
+        display: flex;
+        justify-content: center;
+        gap: 18px;
+        overflow: hidden;
+        justify-content: cem;
+        gap: -1px;
+        width: 93%;
+        background: #f7f7f7;
+        margin: 20px 21px;
+        margin-left: 36px;
+ 
 
 }
 }
-
-
