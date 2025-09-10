@@ -4157,7 +4157,9 @@ quantity-input.quantity {
         background: #f7f7f7;
         margin: 20px 21px;
         margin-left: 36px;
- 
-
+}
+.specifications-heading {
+    width: 93%;
+    margin: 0px 36px;
 }
 }
