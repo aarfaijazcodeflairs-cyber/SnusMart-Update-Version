@@ -4285,9 +4285,8 @@ ul.list-menu.list-menu--inline a {
     font-weight: 700;
     font-size:16px;
     font-family:'Poppins';
-    margin-left:10px;
-    margin-right:10px;
+
 }
 ul.list-menu.list-menu--inline {
-    margin-left: 100px;
+    margin-left: 80px;
 }
