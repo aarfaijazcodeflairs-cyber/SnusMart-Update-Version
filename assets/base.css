@@ -4226,6 +4226,7 @@ product-form.product-form {
 }
 .fqa-heading h1 {
     margin: 34px;
+        margin-left: 10px;
 }
 button.faq-quetion.active i {
      font-size: 11px;
