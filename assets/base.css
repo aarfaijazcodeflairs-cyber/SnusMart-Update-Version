@@ -4189,9 +4189,10 @@ product-form.product-form {
 
 /* FQA Code */
 
-.faq-wrapper{
-   max-width: 50%;
-   margin:auto;
+.faq-wrapper {
+    width: 100%;
+    max-width: 98%;
+    margin: auto;
 }
 .faq-quetion{
    background-color: white;
