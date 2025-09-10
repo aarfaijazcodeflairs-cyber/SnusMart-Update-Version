@@ -4192,11 +4192,6 @@ product-form.product-form {
 .faq-wrapper {
     width: 100%;
     max-width: 98%;
-   
-.fqa-heading h1 {
-    /* font-size: unset; */
-    font-size: 30px;
-      
 }
 .faq-quetion{
    background-color: white;
@@ -4253,7 +4248,7 @@ button.faq-quetion.active i {
 .faq-wrapper.active .faq-answer {
     max-height: 500px;    /* Adjust if text is longer */
     opacity: 1;            /* Fade in when opened */
-    padding: 0px 20px 20px 20px;   /* Add spacing smoothly */
+    padding: 15px 20px;    /* Add spacing smoothly */
 }
 
 /* Optional: icon rotation animation */
