@@ -4147,16 +4147,41 @@ quantity-input.quantity {
 @media screen and (max-width: 425px) {
 
   .Header-text-double-wrapper {
-    display: flex;
-    justify-content: flex-end;
-    gap: 20px;
-    justify-content: cem;
-    gap: -1px;
-    width: 96%;
-    background: #f7f7f7;
-    margin: 21px;
-    padding: 20px 0;
+        display: flex;
+        justify-content: center;
+        gap: 18px;
+        overflow: hidden;
+        justify-content: cem;
+        gap: -1px;
+        width: 93%;
+        background: #f7f7f7;
+        margin: 20px 21px;
+        margin-left: 36px;
+}
+.specifications-heading {
+    width: 93%;
+    margin: 0px 36px;
+}
+.spec-box {
+    width: 93%;
+    margin: 0px 36px;
+}
+.grid__item.product__media-wrapper {
     overflow: hidden;
-
+}
+.grid__item.product__media-wrapper {
+   position: relative; 
+}
+.grid__item.product__media-wrapper {
+    margin: 0px 30px;
+}
+product-form.product-form {
+    position: relative;
+    left: 99px;
+}
+.product-form__input price-per-item, .price-per-item__container {
+    position: relative;
+    right: 125px;
+    flex-direction: row-reverse;
 }
 }
