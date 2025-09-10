@@ -4143,3 +4143,19 @@ quantity-input.quantity {
 .grid__item.product__media-wrapper {
     margin-right: 50px;
 }
+
+@media screen and (max-width: 425px) {
+
+  .Header-text-double-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    justify-content: cem;
+    gap: -1px;
+    width: 96%;
+    background: #f7f7f7;
+    margin: 21px;
+    padding: 20px 0;
+
+}
+}
