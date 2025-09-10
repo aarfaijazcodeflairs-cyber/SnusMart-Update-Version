@@ -4185,7 +4185,10 @@ product-form.product-form {
     flex-direction: row-reverse;
 }
 
-
+.main-wrapper-of-FQA {
+    width: 100%;
+  
+}
 
 
 }
