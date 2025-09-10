@@ -4261,7 +4261,3 @@ button.faq-quetion.active i {
     transform: rotate(180deg); /* Slight rotation when active */
 }
 
-.main-wrapper-of-FQA{
-    
- border:1px solid;
-}
