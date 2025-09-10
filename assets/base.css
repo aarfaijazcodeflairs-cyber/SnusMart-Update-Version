@@ -4171,6 +4171,8 @@ quantity-input.quantity {
 }
 .grid__item.product__media-wrapper {
    position: relative; 
-
+}
+.grid__item.product__media-wrapper {
+    margin: 0px 30px;
 }
 }
