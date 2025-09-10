@@ -4193,6 +4193,10 @@ product-form.product-form {
     width: 100%;
     max-width: 98%;
 }
+.fqa-heading h1 {
+    /* font-size: unset; */
+    font-size: 30px;
+}
 .faq-quetion{
    background-color: white;
    color: black;
