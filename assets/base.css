@@ -4192,8 +4192,7 @@ product-form.product-form {
 .faq-wrapper {
     width: 100%;
     max-width: 98%;
-    margin-left:0px;
-}
+   
 .fqa-heading h1 {
     /* font-size: unset; */
     font-size: 30px;
@@ -4225,7 +4224,7 @@ product-form.product-form {
 }
 .faq-wrapper {
    border-bottom: 1px solid gray;
-   margin: 10px 30px;
+   margin: 10px 10px;
 }
 .faq-wrapper.active{
     border: none;
