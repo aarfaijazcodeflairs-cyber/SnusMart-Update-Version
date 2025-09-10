@@ -4189,17 +4189,6 @@ product-form.product-form {
 
 /* FQA Code */
 
-*{
-   padding: 0px;
-   margin: 0px;
-   box-sizing: border-box;
-}
-* {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
 .faq-wrapper{
    max-width: 50%;
    margin:auto;
