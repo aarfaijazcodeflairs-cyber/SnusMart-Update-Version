@@ -4185,10 +4185,6 @@ product-form.product-form {
     flex-direction: row-reverse;
 }
 
-.main-wrapper-of-FQA {
-    width: 100%;
-  
-}
 
 
 }
@@ -4272,4 +4268,13 @@ button.faq-quetion.active i {
 
 .main-wrapper-of-FQA {
     width: 135%;
+}
+@media screen and (max-width: 425px) {
+  
+.main-wrapper-of-FQA {
+    width: 90%; 
+}
+
+
+
 }
