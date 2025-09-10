@@ -4192,7 +4192,7 @@ product-form.product-form {
 .faq-wrapper {
     width: 100%;
     max-width: 98%;
-    margin-left:10px;
+    margin-left:0px;
 }
 .fqa-heading h1 {
     /* font-size: unset; */
