@@ -4185,3 +4185,93 @@ product-form.product-form {
     flex-direction: row-reverse;
 }
 }
+
+
+/* FQA Code */
+
+.faq-wrapper {
+    width: 100%;
+    max-width: 98%;
+}
+.faq-quetion{
+   background-color: white;
+   color: black;
+   border: none;
+   width: 100%;
+   font-size: 16px;
+   margin: 10px 0px 20px 0px;
+   cursor: pointer;
+   transition: 0.4;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.faq-quetion i{
+   font-size: 20px;
+}
+.faq-answer p{
+   padding-top: 0px;
+   justify-content:left;
+   
+}
+.faq-answer{
+   padding: 0px 10px 10px 0px;
+   overflow: hidden;
+   display: none;
+}
+.faq-wrapper {
+   border-bottom: 1px solid gray;
+   margin: 10px 7px;
+}
+.faq-wrapper.active{
+    border: none;
+}
+.fqa-heading h2 {
+    margin: 34px;
+        margin-left: 10px;
+}
+button.faq-quetion.active i {
+     font-size: 11px;
+    font-weight: 600;
+}
+.faq-quetion i {
+      font-size: 11px;  /* Both + and - same size */
+    font-weight: 800;
+    transition: 0.5ms;
+}
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+    opacity: 0;           /* Initially hidden */
+    background: #fff;
+    padding: 0 20px;
+}
+
+.faq-wrapper.active .faq-answer {
+    max-height: 500px;    /* Adjust if text is longer */
+    opacity: 1;            /* Fade in when opened */
+    padding: 0px 15px 20px 0px;    /* Add spacing smoothly */
+}
+
+/* Optional: icon rotation animation */
+.faq-quetion i {
+    font-size: 20px;
+    transition: transform 0.4s;
+}
+
+.faq-wrapper.active .faq-quetion i {
+    transform: rotate(180deg); /* Slight rotation when active */
+}
+
+
+.main-wrapper-of-FQA {
+    width: 135%;
+}
+@media screen and (max-width: 425px) {
+  
+.main-wrapper-of-FQA {
+    width: 90%; 
+    margin: 38px;
+}
+}
