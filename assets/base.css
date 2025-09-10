@@ -4156,6 +4156,7 @@ quantity-input.quantity {
     background: #f7f7f7;
     margin: 21px;
     padding: 20px 0;
+    overflow: hidden;
 
 }
 }
