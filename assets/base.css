@@ -4237,7 +4237,7 @@ button.faq-quetion.active i {
 }
 .faq-quetion i {
       font-size: 11px;  /* Both + and - same size */
-    font-weight: 600;
+    font-weight: 800;
     transition: 0.5ms;
 }
 .faq-answer {
