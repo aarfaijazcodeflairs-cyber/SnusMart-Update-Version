@@ -4169,4 +4169,9 @@ quantity-input.quantity {
 .grid__item.product__media-wrapper {
     overflow: hidden;
 }
+.grid__item.product__media-wrapper {
+   position: fixed; 
+    /* bottom: 60px; */
+    /* right: -9px; */
+}
 }
