@@ -4283,10 +4283,9 @@ button.faq-quetion.active i {
 /* New Changes */
 ul.list-menu.list-menu--inline a {
     font-weight: 700;
-    font-size:20px;
+    font-size:16px;
     font-family:'Poppins';
-    margin-left:0px;
 }
 ul.list-menu.list-menu--inline {
-    margin-left: 120px;
+    margin-left: 126px;
 }
