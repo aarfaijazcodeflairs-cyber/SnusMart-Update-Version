@@ -4305,9 +4305,6 @@ ul.list-menu.list-menu--inline {
 .price-1 {
     line-height: 32px;
 }
-.featured-collection-button-wrapper button:hover {
-    background: black !important;
-}
 @media screen and (max-width: 425px) {
 .price-with-img {
     display: flex;
