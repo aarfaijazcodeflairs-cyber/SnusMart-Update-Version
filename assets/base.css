@@ -4323,3 +4323,9 @@ h2.rich-text__heading.rte.inline-richtext.h0.scroll-trigger.animate--slide-in {
     font-weight: 400;
     font-family: 'Poppins';
 }
+.rich-text__text.rte.scroll-trigger.animate--slide-in p {
+    font-size: 16px;
+    color: black;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
