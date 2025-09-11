@@ -95,14 +95,33 @@
                   </a>
                 </div>
               <!-- Price -->
-                <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
-                  {%- render 'price',
-                    product: product,
-                    use_variant: true,
-                    show_badges: true,
-                    price_class: 'price--large'
-                  -%}
-                </div> 
+                <div class="price-wrapper">
+                  <div class="price-with-img">
+                        <div class="price-1">
+                          <div class="Price1-image">
+                           <img src=  "{{ 'Euro1.webp' | asset_url }}" >
+                           </div>
+                         {% if card_product.metafields.custom.custom_product_price_1 != blank %}
+                       {{ card_product.metafields.custom.custom_product_price_1 }}
+                         {% else %}
+                       Price not set
+                      {% endif %}
+                       </div>
+
+                      <div class="price-1">
+                        <div class="Price1-image">
+                           <img src=  "{{ 'Euro10.svg' | asset_url }}" >
+                           </div>
+                           <span>
+                    {% if card_product.metafields.custom.custom_product_price_3 != blank %}
+                       {{ card_product.metafields.custom.custom_product_price_3 }}
+                           {% else %}
+                       Price not set
+                       {% endif %}
+                       </span>
+                          </div>
+                        </div>
+                      </div>     
                  <p
                   class="product__inventory{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.inventory_management != 'shopify' %} visibility-hidden{% endif %}"
                   {{ block.shopify_attributes }}
