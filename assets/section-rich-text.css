@@ -36,9 +36,9 @@
 }
 
 @media screen and (min-width: 990px) {
-  .rich-text__blocks {
-    max-width: 78rem;
-  }
+    .rich-text__blocks {
+        max-width: 119rem;
+    }
 }
 
 .rich-text__blocks * {
