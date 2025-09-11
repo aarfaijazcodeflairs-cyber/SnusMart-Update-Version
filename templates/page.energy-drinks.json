@@ -103,13 +103,6 @@
     "rich_text_t8JeH8": {
       "type": "rich-text",
       "blocks": {
-        "heading_tVhHeN": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
         "text_XcyDqY": {
           "type": "text",
           "settings": {
@@ -118,7 +111,6 @@
         }
       },
       "block_order": [
-        "heading_tVhHeN",
         "text_XcyDqY"
       ],
       "name": "t:sections.rich-text.presets.name",
