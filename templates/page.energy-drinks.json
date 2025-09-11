@@ -23,7 +23,7 @@
       "settings": {
         "collection": "energy-drinks",
         "products_to_show": 6,
-        "title": "Featured collection",
+        "title": "",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
