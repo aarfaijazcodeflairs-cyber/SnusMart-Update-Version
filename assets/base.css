@@ -4288,5 +4288,16 @@ ul.list-menu.list-menu--inline a {
 
 }
 ul.list-menu.list-menu--inline {
-    margin-left: 80px;
+    margin-left: 126px;
+}
+
+.custom-price-wrapper {
+  display: flex;
+  gap: 10px; /* space between the two prices */
+}
+
+.custom-price {
+  font-weight: bold;
+  font-size: 1rem; /* adjust size if needed */
+  color: #000; /* or any color you want */
 }
