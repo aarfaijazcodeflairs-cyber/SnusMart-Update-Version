@@ -4302,3 +4302,6 @@ ul.list-menu.list-menu--inline {
 .Price1-image img {
     height: 36px;
 }
+.price-1 {
+    line-height: 32px;
+}
