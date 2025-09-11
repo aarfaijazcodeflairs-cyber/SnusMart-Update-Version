@@ -17,14 +17,38 @@
         "padding_bottom": 28
       }
     },
+    "rich_text_cJVMPf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rKgNrr": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>ACCESSORIES</strong>",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rKgNrr"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "rich_text_YPp4ND": {
       "type": "rich-text",
       "blocks": {
         "heading_VAihc8": {
           "type": "heading",
           "settings": {
-            "heading": "No products found Use fewer filters or <a href=\"https://snusmart.com/collections/accessories\">remove all</a>",
-            "heading_size": "h1"
+            "heading": "<strong>No products found Use fewer filters or </strong><a href=\"https://snusmart.com/collections/accessories\"><strong>remove all</strong></a>",
+            "heading_size": "h2"
           }
         }
       },
@@ -37,13 +61,14 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     }
   },
   "order": [
     "main",
+    "rich_text_cJVMPf",
     "rich_text_YPp4ND"
   ]
 }
