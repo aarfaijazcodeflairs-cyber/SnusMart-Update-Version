@@ -622,16 +622,6 @@
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
               <div class="caption-with-letter-spacing light">{{ 'products.product.vendor' | t }}</div>
             {%- endif -%}
-            <div class="custom-price-wrapper">
-            {% if card_product.metafields.custom.custom_product_price != blank %}
-            <span class="custom-price">{{ card_product.metafields.custom.custom_product_price | money }}</span>
-            {% endif %}
-
-          {% if card_product.metafields.custom.custom_product_price_2 != blank %}
-           <span class="custom-price">{{ card_product.metafields.custom.custom_product_price_2 | money }}</span>
-           {% endif %}
-           </div>
-
          
          <!--   {% render 'price', placeholder: placeholder, show_compare_at_price: true %}-->
           </div>
