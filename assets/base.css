@@ -4295,8 +4295,7 @@ ul.list-menu.list-menu--inline {
 
 
 .price-with-img {
-    display: flex
-;
+    display: flex;
     justify-content: center;
     gap: 82px;
 }
