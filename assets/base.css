@@ -4310,3 +4310,11 @@ ul.list-menu.list-menu--inline {
     gap: 42px;
 }
 }
+
+
+    .rich-text__blocks {
+        max-width: 78rem;
+        /* width: 152%; */
+        position: relative;
+        right: 101px;
+    }
