@@ -9,6 +9,30 @@
  */
 {
   "sections": {
+    "rich_text_U8JXQp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DMikk8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DMikk8"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -48,6 +72,7 @@
     }
   },
   "order": [
+    "rich_text_U8JXQp",
     "main",
     "featured_collection_eTjqaE"
   ]
