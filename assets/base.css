@@ -4284,6 +4284,9 @@ ul.list-menu.list-menu--inline a {
 ul.list-menu.list-menu--inline {
     margin-left: 126px;
 }
+ul.list-menu.list-menu--inline {
+    font-weight: 800;
+}
 /* New Changes about price */
 
 .price-with-img {
