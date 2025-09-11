@@ -530,7 +530,7 @@
                             {{ card_product.title | escape }}
                           </h3>
                         </a>
-                        {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
+                       <!-- {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}-->
                         {%- if card_product.quantity_price_breaks_configured? -%}
                           <div class="card__information-volume-pricing-note">
                           
