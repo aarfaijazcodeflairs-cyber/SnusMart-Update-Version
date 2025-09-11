@@ -17,13 +17,37 @@
         "padding_bottom": 28
       }
     },
+    "rich_text_aMGJ7x": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KNyH3g": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>MEGA CANS</strong>",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KNyH3g"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 12
+      }
+    },
     "featured_collection_djCaDT": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "collection": "mega-cans",
         "products_to_show": 7,
-        "title": "Featured collection",
+        "title": "",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -49,6 +73,7 @@
   },
   "order": [
     "main",
+    "rich_text_aMGJ7x",
     "featured_collection_djCaDT"
   ]
 }
