@@ -4305,3 +4305,12 @@ ul.list-menu.list-menu--inline {
 .price-1 {
     line-height: 32px;
 }
+
+
+@media screen and (max-width: 425px) {
+.price-with-img {
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+}
+}
