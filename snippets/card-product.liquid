@@ -619,11 +619,11 @@
           <div class="card-information">
               
             {%- if show_vendor -%}
-              <span >{{ 'accessibility.vendor' | t }}</span>
+              <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
               <div class="caption-with-letter-spacing light">{{ 'products.product.vendor' | t }}</div>
             {%- endif -%}
          
-         {% render 'price', placeholder: placeholder, show_compare_at_price: true %}-->
+         {% render 'price', placeholder: placeholder, show_compare_at_price: true %}
           </div>
         </div>
       </div>
