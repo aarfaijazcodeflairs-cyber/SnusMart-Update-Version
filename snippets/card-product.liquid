@@ -573,7 +573,13 @@
     </div>
   </div>
 {%- else -%}
-
+  {%- liquid
+    assign ratio = 1
+    assign placeholder = true
+    if media_aspect_ratio == 'portrait'
+      assign ratio = 0.8
+    endif
+  -%}
   <div class="card-wrapper product-card-wrapper underline-links-hover">
     <div
       class="
