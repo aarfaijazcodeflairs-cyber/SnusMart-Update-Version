@@ -94,7 +94,7 @@
                     </h2>
                   </a>
                 </div>
-             <!-- On Sale
+             
                 <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                   {%- render 'price',
                     product: product,
@@ -102,8 +102,7 @@
                     show_badges: true,
                     price_class: 'price--large'
                   -%}
-                </div> -->
-
+                </div> 
                  <p
                   class="product__inventory{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.inventory_management != 'shopify' %} visibility-hidden{% endif %}"
                   {{ block.shopify_attributes }}
