@@ -142,7 +142,7 @@
 
 .card:not(.ratio) > .card__content {
   grid-template-rows: max-content minmax(0, 1fr) max-content auto;
-   display:none;
+ 
 }
 
 .card-information .card__information-volume-pricing-note {
