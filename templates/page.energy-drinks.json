@@ -32,23 +32,11 @@
           "settings": {
             "text": "<p>Introducing <strong>SNOWMAN Energy Drinks </strong>the coolest way to energize your lifestyle. Crafted for those who crave <strong>bold flavors </strong>and <strong>lasting energy</strong>, SNOWMAN delivers an icy burst of refreshment with every sip. Whether you're hitting the gym, grinding through a late-night session, or just need a midday pick-me-up, SNOWMAN keeps you sharp, focused, and ready for anything.<br/><br/></p>"
           }
-        },
-        "button_qfrAxB": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "heading_daWGzd",
-        "text_wRewxQ",
-        "button_qfrAxB"
+        "text_wRewxQ"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
