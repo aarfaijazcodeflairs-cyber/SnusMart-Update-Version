@@ -137,11 +137,12 @@
 .card__information {
   grid-row-start: 2;
   padding: 1.3rem 1rem;
-  display:none;
+ 
 }
 
 .card:not(.ratio) > .card__content {
   grid-template-rows: max-content minmax(0, 1fr) max-content auto;
+   display:none;
 }
 
 .card-information .card__information-volume-pricing-note {
