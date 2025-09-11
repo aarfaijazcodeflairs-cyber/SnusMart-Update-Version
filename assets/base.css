@@ -4250,24 +4250,19 @@ button.faq-quetion.active i {
     background: #fff;
     padding: 0 20px;
 }
-
 .faq-wrapper.active .faq-answer {
-    max-height: 500px;    /* Adjust if text is longer */
-    opacity: 1;            /* Fade in when opened */
-    padding: 0px 15px 20px 0px;    /* Add spacing smoothly */
+    max-height: 500px;    
+    opacity: 1;           
+    padding: 0px 15px 20px 0px;   
 }
-
 /* Optional: icon rotation animation */
 .faq-quetion i {
     font-size: 20px;
     transition: transform 0.4s;
 }
-
 .faq-wrapper.active .faq-quetion i {
-    transform: rotate(180deg); /* Slight rotation when active */
+    transform: rotate(180deg);
 }
-
-
 .main-wrapper-of-FQA {
     width: 135%;
 }
