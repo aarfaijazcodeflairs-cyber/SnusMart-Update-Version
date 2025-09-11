@@ -23,7 +23,7 @@
       "settings": {
         "collection": "nicotine-free",
         "products_to_show": 10,
-        "title": "NICOTINE FREE POUCHES",
+        "title": "",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
