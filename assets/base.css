@@ -4318,3 +4318,8 @@ ul.list-menu.list-menu--inline {
 .rich-text__wrapper.rich-text__wrapper--left {
     padding-left: 62px;
 }
+h2.rich-text__heading.rte.inline-richtext.h0.scroll-trigger.animate--slide-in {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Poppins';
+}
