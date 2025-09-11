@@ -38,7 +38,7 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
+        "padding_top": 64,
         "padding_bottom": 16
       }
     },
@@ -98,7 +98,7 @@
         "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
+        "padding_top": 28,
         "padding_bottom": 36
       }
     },
