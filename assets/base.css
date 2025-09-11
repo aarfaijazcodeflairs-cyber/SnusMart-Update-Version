@@ -4289,7 +4289,7 @@ ul.list-menu.list-menu--inline {
 .price-with-img {
     display: flex;
     justify-content: center;
-    gap: 82px;
+    gap: 86px;
 }
 .Price1-image img {
     height: 36px;
