@@ -4312,9 +4312,3 @@ ul.list-menu.list-menu--inline {
 }
 
 
-    .rich-text__blocks {
-        max-width: 78rem;
-        /* width: 152%; */
-        position: relative;
-        right: 101px;
-    }
