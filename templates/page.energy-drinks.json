@@ -17,6 +17,49 @@
         "padding_bottom": 28
       }
     },
+    "rich_text_xEghHa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_daWGzd": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>SNOWMAN Energy Drinks – Chill the Heat, Power the Day</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_wRewxQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Introducing <strong>SNOWMAN Energy Drinks </strong>the coolest way to energize your lifestyle. Crafted for those who crave <strong>bold flavors </strong>and <strong>lasting energy</strong>, SNOWMAN delivers an icy burst of refreshment with every sip. Whether you're hitting the gym, grinding through a late-night session, or just need a midday pick-me-up, SNOWMAN keeps you sharp, focused, and ready for anything.<br/><br/></p>"
+          }
+        },
+        "button_qfrAxB": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_daWGzd",
+        "text_wRewxQ",
+        "button_qfrAxB"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "featured_collection_EPgzXM": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
@@ -49,6 +92,7 @@
   },
   "order": [
     "main",
+    "rich_text_xEghHa",
     "featured_collection_EPgzXM"
   ]
 }
