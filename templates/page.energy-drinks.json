@@ -33,6 +33,7 @@
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
+        "custom_rich_text_class": "",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
@@ -63,6 +64,7 @@
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
+        "custom_rich_text_class": "",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
@@ -115,6 +117,7 @@
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
+        "custom_rich_text_class": "energy-drink-text-change",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
