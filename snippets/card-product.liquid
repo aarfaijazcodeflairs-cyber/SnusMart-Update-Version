@@ -700,7 +700,6 @@
         <!--{% render 'price', placeholder: placeholder, show_compare_at_price: true %}--> 
         <div class="price-wrapper">
                   <div class="price-with-img">
-                   <!-- First custom price -->
                         <div class="price-1">
                          {% if card_product.metafields.custom.custom_product_price_1 != blank %}
                        {{ card_product.metafields.custom.custom_product_price_1 }}
@@ -709,7 +708,6 @@
                       {% endif %}
                        </div>
 
-                        <!-- Second custom price -->
                       <div class="price-1">
                     {% if card_product.metafields.custom.custom_product_price_3 != blank %}
                        {{ card_product.metafields.custom.custom_product_price_3 }}
