@@ -30,9 +30,12 @@
     justify-content: flex-end;
   }
 
-  .rich-text__blocks {
-    max-width: 50rem;
-  }
+
+    .rich-text__blocks {
+        max-width: 132rem;
+      
+    
+    }
 }
 
 @media screen and (min-width: 990px) {
