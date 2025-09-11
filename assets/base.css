@@ -4299,3 +4299,6 @@ ul.list-menu.list-menu--inline {
     justify-content: center;
     gap: 82px;
 }
+.Price1-image img {
+    height: 44px;
+}
