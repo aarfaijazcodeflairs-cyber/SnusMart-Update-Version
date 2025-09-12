@@ -108,7 +108,7 @@
         "text_XcyDqY": {
           "type": "text",
           "settings": {
-            "text": "<p>Packed with <strong>natural caffeine</strong>, <strong>essential B-vitamins</strong>, and <strong>zero crash</strong>, SNOWMAN is more than just an energy drink – it's a vibe. Choose from mouthwatering flavors like <strong>Grape Boost </strong>, <strong>APPLE DOSE</strong>, and <strong>BUBBLE GUM</strong>, each designed to awaken your senses and keep you cool under pressure.</p><p>❄️ <strong>Unique Taste Experience</strong> – Cool, crisp, and dangerously delicious</p><p>⚡ <strong>Clean Energy Formula</strong> – No jitters, no sugar crashes</p><p>🌱 <strong>Natural Ingredients</strong> – Plant-based caffeine, vegan-friendly</p><p>🚀 <strong>Performance Boost</strong> – Fuel for workouts, study sessions, and everything in between</p><p>Level up your energy game. Stay fresh. Stay unstoppable.</p><p></p><p><strong>SNOWMAN Energy – Taste the Chill.</strong></p>"
+            "text": "<p>Packed with <strong>natural caffeine</strong>, <strong>essential B-vitamins</strong>, and <strong>zero crash</strong>, SNOWMAN is more than just an energy drink – it's a vibe. Choose from mouthwatering flavors like <strong>Grape Boost </strong>, <strong>APPLE DOSE</strong>, and <strong>BUBBLE GUM</strong>, each designed to awaken your senses and keep you cool under pressure.</p><p>❄️ <strong>Unique Taste Experience</strong> – Cool, crisp, and dangerously delicious</p><p>⚡ <strong>Clean Energy Formula</strong> – No jitters, no sugar crashes</p><p>🌱 <strong>Natural Ingredients</strong> – Plant-based caffeine, vegan-friendly</p><p>🚀 <strong>Performance Boost</strong> – Fuel for workouts, study sessions, and everything in between</p><p>Level up your energy game. Stay fresh. Stay unstoppable.<strong>.</strong></p>"
           }
         }
       },
@@ -125,6 +125,30 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "rich_text_aiRhTx": {
+      "type": "rich-text",
+      "blocks": {
+        "text_C6W4rW": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>SNOWMAN Energy – Taste the Chill.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_C6W4rW"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "custom_rich_text_class": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -132,6 +156,7 @@
     "rich_text_apweBA",
     "rich_text_xEghHa",
     "featured_collection_EPgzXM",
-    "rich_text_t8JeH8"
+    "rich_text_t8JeH8",
+    "rich_text_aiRhTx"
   ]
 }
