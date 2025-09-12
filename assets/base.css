@@ -4392,7 +4392,7 @@ h2.rich-text__heading.rte.inline-richtext.h0.scroll-trigger.animate--slide-in {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2 columns side by side */
   gap: 10px; /* spacing between items */
-  padding: 50px;
+  padding: 20px 60px;
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 8px;
