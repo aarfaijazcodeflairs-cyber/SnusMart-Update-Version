@@ -4423,11 +4423,13 @@ h2.rich-text__heading.rte.inline-richtext.h0.scroll-trigger.animate--slide-in {
 img.menu-icon {
     height: 32px;
 }
-
+/* Sub Menu Style */
 a#HeaderMenu-flavour-blueberry {
     text-align: center;
 }
-
 a#HeaderMenu-flavour-lime {
+    text-align: center;
+}
+a#HeaderMenu-flavour-fruits {
     text-align: center;
 }
