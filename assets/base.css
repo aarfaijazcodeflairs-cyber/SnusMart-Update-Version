@@ -4356,14 +4356,10 @@ h2.rich-text__heading.rte.inline-richtext.h0.scroll-trigger.animate--slide-in {
     line-height:5px;
 }
 @media screen and (max-width: 425px) {
-h2.rich-text__heading.rte.inline-richtext.h0.scroll-trigger.animate--slide-in {
+.custom-class-of-energy-drinks h2.rich-text__heading.rte.inline-richtext.h0.scroll-trigger.animate--slide-in {
     font-size: 20px;
     margin-left:30px;
 }
 
 
-}
-
-.custom-class-of-energy-drinks h2.rich-text__heading.rte.inline-richtext.h0.scroll-trigger.animate--slide-in{
-  
 }
