@@ -4460,7 +4460,6 @@ header-menu ul {
 header-menu ul li a {
   display: block;
   padding: 10px;
-  text-decoration: none;
   color: #333;
   text-align: center; /* center text inside each column */
   transition: background-color 0.3s, color 0.3s;
