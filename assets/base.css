@@ -4352,4 +4352,5 @@ h2.rich-text__heading.rte.inline-richtext.h0.scroll-trigger.animate--slide-in {
     display: flex;
     justify-content: center;
     gap: 0; /* your custom gap */
+    line-height:5px;
 }
