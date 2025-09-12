@@ -205,7 +205,7 @@
             {%- endif -%}
 
            <!-- {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}-->
-              <div class="price-wrapper">
+              <div class="price-wrapper {% if page.handle == 'energy-drinks' %}energy-class{% endif %}">
                   <div class="price-with-img">
                         <div class="price-1">
                          {% unless page.handle == 'energy-drinks' %}
