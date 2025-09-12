@@ -43,10 +43,25 @@
                         {% endif %}
                       >
 
-                       {% if childlink.title == "APPLE" %}
-                         <img src="{{ 'Captrrrrrttttture.PNG' | asset_url }}" alt="Apple" class="menu-icon">
-                           {% endif %}
-
+                      {% if childlink.title == "MINT" %}
+                          <img src="{{ 'mint.png' | asset_url }}" alt="Mint" class="menu-icon">
+                      {% elsif childlink.title == "BERRIES" %}
+                          <img src="{{ 'berries.png' | asset_url }}" alt="Berries" class="menu-icon">
+                      {% elsif childlink.title == "APPLE" %}
+                          <img src="{{ 'Captrrrrrttttture.PNG' | asset_url }}" alt="Apple" class="menu-icon">
+                      {% elsif childlink.title == "FRUITS" %}
+                          <img src="{{ 'fruits.png' | asset_url }}" alt="Fruits" class="menu-icon">
+                      {% elsif childlink.title == "COLA" %}
+                          <img src="{{ 'cola.png' | asset_url }}" alt="Cola" class="menu-icon">
+                      {% elsif childlink.title == "LIME" %}
+                          <img src="{{ 'lime.png' | asset_url }}" alt="Lime" class="menu-icon">
+                      {% elsif childlink.title == "MELON" %}
+                          <img src="{{ 'melon.png' | asset_url }}" alt="Melon" class="menu-icon">
+                      {% elsif childlink.title == "BLUEBERRY" %}
+                          <img src="{{ 'blueberry.png' | asset_url }}" alt="Blueberry" class="menu-icon">
+                         {% else %}
+                       <img src="{{ 'default.png' | asset_url }}" alt="Default" class="menu-icon">
+                      {% endif %}
 
 
                         {{ childlink.title | escape }}
