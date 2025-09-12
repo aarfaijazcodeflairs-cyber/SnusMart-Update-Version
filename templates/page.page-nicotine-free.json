@@ -13,9 +13,11 @@
       "type": "suns-mart-icons-section",
       "name": "snus mart icons",
       "settings": {
-        "snus_mart_icon_section_text_1": "",
-        "snus_mart_icon_section_text_2": "",
-        "snus_mart_icon_section_text_3": ""
+        "snus_mart_icon_section_text_1": "<p>Our Customers say</p>",
+        "snus_mart_icon_section_text_2": "<h3>Excellent</h3>",
+        "snus_mart_icon_section_image_1": "shopify://shop_images/10001.svg",
+        "snus_mart_icon_section_text_3": "<p><strong>4.6</strong>out of 5 based on<strong>798 reviews</strong></p>",
+        "snus_mart_icon_section_image_2": "shopify://shop_images/10002.svg"
       }
     },
     "rich_text_U8JXQp": {
