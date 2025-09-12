@@ -17,6 +17,17 @@
         "padding_bottom": 28
       }
     },
+    "suns_mart_icons_section_MgepdR": {
+      "type": "suns-mart-icons-section",
+      "name": "snus mart icons",
+      "settings": {
+        "snus_mart_icon_section_text_1": "<p>Our Customers say</p>",
+        "snus_mart_icon_section_text_2": "<h3>Excellent</h3>",
+        "snus_mart_icon_section_image_1": "shopify://shop_images/10001.svg",
+        "snus_mart_icon_section_text_3": "<p><strong>4.6</strong>out of 5 based on 838<strong> reviews</strong></p>",
+        "snus_mart_icon_section_image_2": "shopify://shop_images/10002.svg"
+      }
+    },
     "rich_text_aMGJ7x": {
       "type": "rich-text",
       "blocks": {
@@ -33,6 +44,7 @@
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
+        "custom_rich_text_class": "",
         "desktop_content_position": "left",
         "content_alignment": "left",
         "color_scheme": "",
@@ -73,6 +85,7 @@
   },
   "order": [
     "main",
+    "suns_mart_icons_section_MgepdR",
     "rich_text_aMGJ7x",
     "featured_collection_djCaDT"
   ]
