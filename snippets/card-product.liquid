@@ -559,6 +559,7 @@
                       {% endif %}
                        </div>
 
+                         {% unless template.name == 'page.energy-drinks' %}
                       <div class="price-1">
                         <div class="Price1-image">
                            <img src=  "{{ 'Euro10.svg' | asset_url }}" >
@@ -571,6 +572,7 @@
                        {% endif %}
                        </span>
                           </div>
+                          {% endunless %}
                         </div>
                       </div>   
 
