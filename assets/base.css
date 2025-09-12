@@ -4466,8 +4466,3 @@ header-menu ul li a {
   text-align: center; /* center text inside each column */
   transition: background-color 0.3s, color 0.3s;
 }
-
-header-menu ul li a:hover {
-  background-color: #333;
-  color: #fff;
-}
