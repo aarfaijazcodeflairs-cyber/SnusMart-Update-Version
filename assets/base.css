@@ -4355,3 +4355,9 @@ h2.rich-text__heading.rte.inline-richtext.h0.scroll-trigger.animate--slide-in {
     margin-top:5px;
     line-height:5px;
 }
+@media screen and (max-width: 425px) {
+h2.rich-text__heading.rte.inline-richtext.h0.scroll-trigger.animate--slide-in {
+    font-size: 20px;
+    margin-left: 18px;
+}
+}
