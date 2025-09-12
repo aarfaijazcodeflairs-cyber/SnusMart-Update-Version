@@ -43,7 +43,11 @@
                         {% endif %}
                       >
 
-                        
+                         {% if childlink.title | downcase == "apple" %}
+                       <img src="{{ 'apple.png' | asset_url }}" alt="Apple" class="menu-icon">
+                                {% elsif childlink.title | downcase == "mint" %}
+                        <img src="{{ 'Capturrrrrre.PNG' | asset_url }}" alt="Mint" class="menu-icon">
+                               {% endif %}
 
 
                         {{ childlink.title | escape }}
