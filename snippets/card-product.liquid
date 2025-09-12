@@ -733,7 +733,7 @@
               <div class="caption-with-letter-spacing light">{{ 'products.product.vendor' | t }}</div>
             {%- endif -%}
         <!--{% render 'price', placeholder: placeholder, show_compare_at_price: true %}--> 
-       <div class="price-wrapper">
+        <div class="price-wrapper">
   <div class="price-with-img">
     <!-- First Price (always shown) -->
     <div class="price-1">
@@ -748,7 +748,7 @@
     </div>
 
     <!-- Second Price (shown only on pages other than Energy Drinks page) -->
-    {% unless template.name == 'page.energy-drinks' %}
+    {% unless template.name == 'page.energy-drinks.jason' %}
     <div class="price-1">
       <div class="Price1-image">
         <img src="{{ 'Euro10.svg' | asset_url }}">
