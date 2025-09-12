@@ -9,6 +9,15 @@
  */
 {
   "sections": {
+    "suns_mart_icons_section_6UMXKX": {
+      "type": "suns-mart-icons-section",
+      "name": "snus mart icons",
+      "settings": {
+        "snus_mart_icon_section_text_1": "",
+        "snus_mart_icon_section_text_2": "",
+        "snus_mart_icon_section_text_3": ""
+      }
+    },
     "rich_text_U8JXQp": {
       "type": "rich-text",
       "blocks": {
@@ -25,6 +34,7 @@
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
+        "custom_rich_text_class": "",
         "desktop_content_position": "left",
         "content_alignment": "left",
         "color_scheme": "scheme-1",
@@ -72,6 +82,7 @@
     }
   },
   "order": [
+    "suns_mart_icons_section_6UMXKX",
     "rich_text_U8JXQp",
     "main",
     "featured_collection_eTjqaE"
