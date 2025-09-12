@@ -42,9 +42,25 @@
                           aria-current="page"
                         {% endif %}
                       >
-                        {% if childlink.title == "APPLE" %}
-                         <img src="{{ 'Captrrrrrttttture.PNG' | asset_url }}" alt="Apple" class="menu-icon">
-                                       {% endif %}
+                           {% case childlink.title | downcase %}
+                            {% when "mint" %}
+                           <img src="{{ 'mint.png' | asset_url }}" alt="Mint" class="menu-icon">
+                           {% when "berries" %}
+                            <img src="{{ 'berries.png' | asset_url }}" alt="Berries" class="menu-icon">
+                            {% when "apple" %}
+                             <img src="{{ 'apple.png' | asset_url }}" alt="Apple" class="menu-icon">
+                             {% when "fruits" %}
+                               <img src="{{ 'fruits.png' | asset_url }}" alt="Fruits" class="menu-icon">
+                                {% when "cola" %}
+                                <img src="{{ 'cola.png' | asset_url }}" alt="Cola" class="menu-icon">
+                                   {% when "lime" %}
+                                 <img src="{{ 'lime.png' | asset_url }}" alt="Lime" class="menu-icon">
+                                 {% when "melon" %}
+                                  <img src="{{ 'melon.png' | asset_url }}" alt="Melon" class="menu-icon">
+                                   {% when "blueberry" %}
+                                    <img src="{{ 'blueberry.png' | asset_url }}" alt="Blueberry" class="menu-icon">
+                                         {% endcase %}
+    
                      
                         {{ childlink.title | escape }}
                       </a>
