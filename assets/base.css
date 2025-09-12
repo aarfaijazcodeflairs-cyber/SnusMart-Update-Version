@@ -4366,3 +4366,16 @@ h2.rich-text__heading.rte.inline-richtext.h0.scroll-trigger.animate--slide-in {
 
 
 }
+
+#HeaderMenu-nicotine-free::after {
+    content: "New";               /* Text to show */
+    display: inline-block;
+    background-color: red;        /* Red background */
+    color: white;                 /* White text */
+    font-size: 10px;              /* Small font */
+    font-weight: bold;
+    padding: 2px 5px;             /* Some padding */
+    margin-left: 5px;             /* Space from menu text */
+    border-radius: 3px;           /* Rounded corners */
+    vertical-align: middle;       /* Align nicely with text */
+}
