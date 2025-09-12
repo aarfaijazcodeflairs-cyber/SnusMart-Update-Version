@@ -4347,4 +4347,11 @@ h2.rich-text__heading.rte.inline-richtext.h0.scroll-trigger.animate--slide-in {
     margin-left: 30px;
 }
 }
+.page-energy-drinks .price-with-img {
+    display: flex !important;
+    justify-content: center !important;
+    gap: 0px !important;
+    flex-wrap: nowrap !important;
+    align-content: stretch !important;
+}
 
