@@ -4446,7 +4446,7 @@ a#HeaderMenu-flavour-melon {
 header-menu ul {
   display: grid;
   grid-template-columns: repeat(5, 1fr); /* 5 equal columns */
-  gap: 5px; /* spacing between items */
+ 
   list-style: none;
   margin: 0;
   padding: 0;
