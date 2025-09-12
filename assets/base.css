@@ -4385,3 +4385,32 @@ h2.rich-text__heading.rte.inline-richtext.h0.scroll-trigger.animate--slide-in {
     border-radius: 3px;
     white-space: nowrap;         /* Prevent text from breaking */
 }
+
+.site-nav__dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  border-radius: 5px;
+  min-width: 180px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+/* Show dropdown on hover */
+.has-dropdown:hover .site-nav__dropdown {
+  display: block;
+}
+
+/* Style dropdown links */
+.site-nav__dropdown a {
+  display: block;
+  padding: 10px 15px;
+  color: #333;
+  text-decoration: none;
+}
+
+.site-nav__dropdown a:hover {
+  background-color: #f5f5f5;
+}
