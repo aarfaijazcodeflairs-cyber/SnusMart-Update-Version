@@ -4390,7 +4390,7 @@ h2.rich-text__heading.rte.inline-richtext.h0.scroll-trigger.animate--slide-in {
 /* Submenu container */
 #HeaderMenu-MenuList-4 {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
     width: 209%;
     border: 1px solid;
     background-color: #fff;
