@@ -42,6 +42,9 @@
                           aria-current="page"
                         {% endif %}
                       >
+                        {% if childlink.title == "APPLE" %}
+                         <img src="{{ 'apple.png' | asset_url }}" alt="Apple" class="menu-icon">
+                                       {% endif %}
                      
                         {{ childlink.title | escape }}
                       </a>
