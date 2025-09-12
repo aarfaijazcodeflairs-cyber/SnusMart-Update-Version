@@ -4360,9 +4360,6 @@ h2.rich-text__heading.rte.inline-richtext.h0.scroll-trigger.animate--slide-in {
     font-size: 20px;
     margin-left:30px;
 }
-.rte>*:last-child {
-    margin-bottom: 0px;
-    margin-left: -61px;
-}
+
 
 }
