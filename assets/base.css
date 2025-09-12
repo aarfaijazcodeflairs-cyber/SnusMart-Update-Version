@@ -4367,15 +4367,21 @@ h2.rich-text__heading.rte.inline-richtext.h0.scroll-trigger.animate--slide-in {
 
 }
 
+#HeaderMenu-nicotine-free {
+    position: relative;
+}
+
+/* Position the "New" badge above and to the right */
 #HeaderMenu-nicotine-free::after {
-    content: "New";               /* Text to show */
-    display: inline-block;
-    background-color: red;        /* Red background */
-    color: white;                 /* White text */
-    font-size: 10px;              /* Small font */
+    content: "New";
+    position: absolute;          /* Absolute positioning relative to parent */
+    top: -8px;                   /* Move it above the text */
+    right: -10px;                /* Move it slightly to the right */
+    background-color: red;
+    color: white;
+    font-size: 10px;
     font-weight: bold;
-    padding: 2px 5px;             /* Some padding */
-    margin-left: 5px;             /* Space from menu text */
-    border-radius: 3px;           /* Rounded corners */
-    vertical-align: middle;       /* Align nicely with text */
+    padding: 2px 5px;
+    border-radius: 3px;
+    white-space: nowrap;         /* Prevent text from breaking */
 }
