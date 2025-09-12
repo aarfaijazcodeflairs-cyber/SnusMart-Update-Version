@@ -44,7 +44,7 @@
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "custom_rich_text_class": "",
+        "custom_rich_text_class": "custom-class-of-energy-drinks",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
