@@ -4423,3 +4423,8 @@ h2.rich-text__heading.rte.inline-richtext.h0.scroll-trigger.animate--slide-in {
     grid-template-columns: 1fr;
   }
 }
+
+
+img.menu-icon {
+    height: 32px;
+}
