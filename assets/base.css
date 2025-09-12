@@ -4344,7 +4344,6 @@ h2.rich-text__heading.rte.inline-richtext.h0.scroll-trigger.animate--slide-in {
 }
 h2.rich-text__heading.rte.inline-richtext.h0.scroll-trigger.animate--slide-in {
     font-size: 26px;
- 
 }
 }
 
@@ -4363,8 +4362,6 @@ h2.rich-text__heading.rte.inline-richtext.h0.scroll-trigger.animate--slide-in {
 h2.rich-text__heading.rte.inline-richtext.h0.scroll-trigger.animate--slide-in {
    margin-left:-30px;
 }
-
-
 }
 
 #HeaderMenu-nicotine-free {
@@ -4386,11 +4383,10 @@ h2.rich-text__heading.rte.inline-richtext.h0.scroll-trigger.animate--slide-in {
     white-space: nowrap;         /* Prevent text from breaking */
 }
 
-
 /* Submenu container */
 #HeaderMenu-MenuList-4 {
     display: grid;
-  grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     width: 329%;
     border: 1px solid;
     background-color: #fff;
@@ -4399,7 +4395,6 @@ h2.rich-text__heading.rte.inline-richtext.h0.scroll-trigger.animate--slide-in {
     box-shadow: 0 4px 8px #0000001a;
     list-style: none;
 }
-
 
 /* Menu items */
 #HeaderMenu-MenuList-4 li a {
