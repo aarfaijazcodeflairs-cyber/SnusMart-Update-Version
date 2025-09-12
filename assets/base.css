@@ -4409,16 +4409,12 @@ h2.rich-text__heading.rte.inline-richtext.h0.scroll-trigger.animate--slide-in {
   border-radius: 4px;
   transition: all 0.2s ease;
 }
-
-
-
 /* Responsive: single column on smaller screens */
 @media (max-width: 768px) {
   #HeaderMenu-MenuList-4 {
     grid-template-columns: 1fr;
   }
 }
-
 
 img.menu-icon {
     height: 32px;
